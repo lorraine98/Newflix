@@ -1,0 +1,13 @@
+.status-bar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #120522;
+}
+.status-bar__column i {
+  margin-left: 5px;
+}

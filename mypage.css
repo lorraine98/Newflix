@@ -1,0 +1,104 @@
+@import "global.css";
+
+html,
+body {
+  height: 100%;
+}
+.user-component {
+  position: relative;
+  padding: 60px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.user-component__profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+.user-component__title {
+  padding-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+.fa-exclamation-circle {
+  color: tomato;
+  padding-left: 5px;
+}
+.continue-watch {
+  margin: 25px 0;
+  padding: 0 20px;
+  padding-bottom: 10px;
+}
+.continue-watch__container {
+  background-color: #37274b;
+  border: 5px solid #37274b;
+  border-radius: 15px;
+}
+.continue-watch__title {
+  font-size: 15px;
+  padding: 0.3rem 0;
+}
+.continue-watch__header {
+  margin-bottom: 15px;
+}
+.continue-watch__imges {
+  list-style: none;
+  display: flex;
+  overflow-x: scroll;
+}
+.continue-watch__imges li {
+  margin-left: 5px;
+}
+.continue-watch__imges img {
+  width: 200px;
+  height: 120px;
+  border-radius: 15px;
+}
+.border {
+  border-top: 1px solid white;
+  padding: 2px;
+  margin: 15px;
+}
+.wishlist__header {
+  padding-left: 20px;
+}
+
+.wishlist-component__margin {
+  margin: 20px;
+}
+.wishlist-component {
+  margin-bottom: 0.8rem;
+}
+.wishlist-component,
+.wishlist-component-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #37274b;
+  border: 7px solid #37274b;
+  border-radius: 15px;
+}
+
+.wishlist-component__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+}
+
+.wishlist-component__text {
+  margin-left: 20px;
+}
+
+.wishlist-component__title {
+  font-weight: 600;
+}
+
+.wishlist-component__subtitle {
+  color: gray;
+  margin-top: 4px;
+  font-size: 15px;
+}
+.wishlist__playicon {
+  font-size: 3rem;
+}
