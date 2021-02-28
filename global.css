@@ -13,3 +13,17 @@ body {
   background-color: var(--background-purple);
   color: white;
 }
+.display-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.position-relative {
+  position: relative;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  appearance: none;
+}

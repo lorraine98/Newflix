@@ -4,15 +4,11 @@ html,
 body {
   height: 100%;
 }
-.find-search-bar-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+.find-search-bar-form {
   padding: 0 10px;
 }
 
-.find-search-bar-container div {
+.find-search-bar-form div {
   width: 90%;
 }
 
@@ -29,13 +25,8 @@ body {
 .find-search-bar:focus {
   background-color: #594374;
 }
-.find-search-bar__position-relative {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.find-search-bar__position-relative .fa-sistrix {
+
+.find-search-bar-form .fa-sistrix {
   position: absolute;
   font: 1rem;
   bottom: 0.55rem;
@@ -82,10 +73,8 @@ body {
   padding: 0 25px;
   padding-bottom: 10px;
 }
-.movie-recommendation__title {
-  margin-bottom: 15px;
-}
 .movie-recommendation__imges {
+  margin-top: 15px;
   list-style: none;
   display: flex;
   overflow-x: scroll;
