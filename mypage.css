@@ -18,13 +18,14 @@ body {
 }
 .user-component__id {
   font-weight: 600;
-  padding-bottom: 0.3rem;
-  font-size: 1.3rem;
+  padding-bottom: 0.2rem;
+  font-size: 1.5rem;
 }
 .user-component__grade {
   color: gray;
   margin-top: 4px;
   font-size: 15px;
+  font-weight: bolder;
 }
 .fa-exclamation-circle {
   color: tomato;
