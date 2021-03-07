@@ -9,7 +9,7 @@
   position: fixed;
   bottom: 0;
 }
-.navigation-bar i {
+.navigation-bar span {
   color: black;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }

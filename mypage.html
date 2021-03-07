@@ -10,12 +10,18 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>12 : 02</span>
+        <span class="status-bar__clock">12 : 02</span>
       </div>
       <div class="status-bar__column">
-        <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
-        <i class="fas fa-bolt"></i>
+        <span class="material-icons-outlined">
+          wifi
+        </span>
+          <span class="material-icons-outlined">
+            battery_charging_full
+        </span>
+        <span class="material-icons-outlined">
+              signal_cellular_alt
+        </span>
       </div>
     </div>
 
@@ -24,7 +30,9 @@
       <div class="user-component__text">
         <div class="user-component__id">Guset 98</div>
         <div class="user-component__grade">
-          게스트 이용권<i class="fas fa-exclamation-circle"></i>
+          게스트 이용권<span class="material-icons">
+            info
+            </span>
         </div>
       </div>
     </div>
@@ -59,9 +67,11 @@
             <span class="wishlist__title">도깨비</span>
             <span class="wishlist__subtitle">김고은, 공유 출연</span>
         </div>
-        <button class="wishlist-play-btn">
-            <i class="fas fa-play-circle"></i>
-        </button>
+        <div class="wishlist-play-btn">
+          <span class="material-icons">
+            play_arrow
+            </span>
+        </div>
       </div>
 
       <div class="wishlist-item">
@@ -72,9 +82,11 @@
             <span class="wishlist__title">오만과 편견</span>
             <span class="wishlist__subtitle">황상준 출연</span>
         </div>
-        <button class="wishlist-play-btn">
-            <i class="fas fa-play-circle"></i>
-        </button>
+        <div class="wishlist-play-btn">
+          <span class="material-icons">
+            play_arrow
+            </span>
+        </div>
       </div>
 
       <div class="wishlist-item">
@@ -85,9 +97,11 @@
             <span class="wishlist__title">편의점 샛별이</span>
             <span class="wishlist__subtitle">김유정, 지상욱 출연</span>
         </div>
-        <button class="wishlist-play-btn">
-            <i class="fas fa-play-circle"></i>
-        </button>
+        <div class="wishlist-play-btn">
+          <span class="material-icons">
+            play_arrow
+            </span>
+        </div>
       </div>
 
     </div>
@@ -96,16 +110,18 @@
 
     <div class="navigation-bar">
       <a href="find.html">
-        <i class="fas fa-search"></i>
+        <span class="material-icons-outlined">
+          search
+          </span>
       </a>
       <a href="mypage.html">
-        <i class="fas fa-user-alt"></i>
+        <span class="material-icons-outlined">
+          person_outline
+          </span>
       </a>
     </div>
-
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
+    <div class="no-mobile">
+      <span>화면 사이즈를 줄여주세요!</span>
+    </div>
   </body>
 </html>
