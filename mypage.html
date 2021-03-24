@@ -8,32 +8,16 @@
     <link rel="stylesheet" href="./css/mypage.css" />
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">12 : 02</span>
+    <div class="display-flex-center">
+      <div class="user-component">
+        <img src="./img/mypage-profile.jpg" class="user-component__profile" />      
+        <div class="user-component__id">임효성</div>
       </div>
-      <div class="status-bar__column">
-        <span class="material-icons-outlined">
-          wifi
-        </span>
-          <span class="material-icons-outlined">
-            battery_charging_full
-        </span>
-        <span class="material-icons-outlined">
-              signal_cellular_alt
-        </span>
-      </div>
-    </div>
-
-    <div class="user-component">
-      <img src="./img/mypage-profile.png" class="user-component__profile" />
-      <div class="user-component__text">
-        <div class="user-component__id">Guest 98</div>
-        <div class="user-component__grade">
-          게스트 이용권<span class="material-icons">
-            info
-            </span>
+      <div class="user-component">
+        <div class="user-component__profile add-profile-btn display-flex-center">
+            <span>+</span> 
         </div>
+        <div class="user-component__id">새 프로필</div>
       </div>
     </div>
 
@@ -114,13 +98,10 @@
           </span>
       </a>
       <a href="mypage.html">
-        <span class="material-icons-outlined">
-          person_outline
+        <span class="material-icons">
+          person
           </span>
       </a>
-    </div>
-    <div class="no-mobile">
-      <span>화면 사이즈를 줄여주세요!</span>
     </div>
   </body>
 </html>

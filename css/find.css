@@ -9,7 +9,7 @@
 }
 
 .find-search-bar {
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: var(--darkpurple);
   border-radius: 25px;
   width: 100%;
@@ -68,7 +68,7 @@
   margin-top: 15px;
   list-style: none;
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 .movie-recommendation__imges li {
   margin-left: 5px;
@@ -76,4 +76,7 @@
 .movie-recommendation__imges img {
   width: 150px;
   border-radius: 15px;
+}
+.search-icon-clicked {
+  font-weight: 600;
 }
