@@ -4,7 +4,6 @@ html,
 body {
   overflow: hidden;
 }
-
 .login-title {
   text-align: center;
 }
@@ -16,7 +15,6 @@ body {
   font-size: 0.9rem;
   font-weight: 100;
 }
-
 .login-form {
   display: flex;
   flex-direction: column;

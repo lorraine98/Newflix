@@ -7,7 +7,6 @@
 .find-search-bar-form div {
   width: 100%;
 }
-
 .find-search-bar {
   margin-top: 20px;
   background-color: var(--darkpurple);
@@ -17,11 +16,9 @@
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
-
 .find-search-bar:focus {
   background-color: #594374;
 }
-
 .find-search-bar-form span {
   position: absolute;
   font: 1rem;
@@ -76,7 +73,4 @@
 .movie-recommendation__imges img {
   width: 150px;
   border-radius: 15px;
-}
-.search-icon-clicked {
-  font-weight: 600;
 }
